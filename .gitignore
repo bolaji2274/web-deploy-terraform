@@ -1,0 +1,41 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs file 
+crash.log
+crash.*.log
+
+# Terraform variables files
+
+*.tfvars
+*.tfvars.json
+
+# Remove access.txt in the local
+access.txt
+
+# Override files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Mac OS scpecific files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Mac OS finder files
+Icon?
+._*
+
+# File that might appear when editting files in mac os
+.spotlight-v100
+.Trashes
+
