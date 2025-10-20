@@ -371,3 +371,4 @@ data "aws_ami" "amazon_linux" {
   #   name = "root-device-type"
   # }
 }
+
